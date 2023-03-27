@@ -1,0 +1,38 @@
+ 
+.wrap{
+    
+}
+
+.boxes{
+   display: grid;
+   grid-template-rows: 180px 180px;
+   grid-template-columns: 180px 180px;
+   grid-gap: 25px;
+   position: relative;
+   margin: 30px auto 40px auto;
+   width: fit-content;
+}
+
+.box-blå{
+    background-color: blue;
+}
+
+.box-rød{
+    background-color: red;
+}
+
+.box-grønn{
+    background-color: green;
+}
+
+.box-gul{
+    background-color: yellow;
+}
+
+.start{
+    background-color: beige;
+    height: 30%;
+    width: 30%;
+    margin: auto;
+    font-size: 60px;
+}
