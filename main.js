@@ -49,6 +49,7 @@ function addtobrukerli (box){
 }
 
 function nextround() {
+    setTimeout(2000)
     console.log("next round")
     const nextitem = `box${Math.ceil(Math.random() *4)}`
     randli.push(nextitem)
@@ -78,4 +79,23 @@ function checkuserclick(){
         }
     }
     return true
+}
+
+
+//-------------------------------------------------------
+
+function tileActivated{
+    const tile = document.querySelector ()
+}
+
+const tilearray = ['a', 'b', 'b', 'd', 'd'];
+
+function activateTile(tilearray){
+    tilearray.forEach(tile => {
+        document.querySelector(`#$(tile)`);
+        Element.classList.toggle('activated')
+        setTimeout(()=> {
+            Element.classlist.toggle('activated')
+        }, 500);
+    })
 }

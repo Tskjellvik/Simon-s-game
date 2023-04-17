@@ -1,6 +1,6 @@
  
 .wrap{
-    
+    background-color: blueviolet;
 }
 
 .boxes{
@@ -10,23 +10,41 @@
    grid-gap: 25px;
    position: relative;
    margin: 30px auto 40px auto;
-   width: fit-content;
+   width: fit-content;  
 }
 
+.box-blå:active,
+.box-blå:activated{
+    background-color: rgb(254, 254, 255);
+    transform: translateY(10px);
+}
 .box-blå{
     background-color: blue;
+    cursor: pointer;
 }
 
 .box-rød{
     background-color: red;
 }
+.box-rød{
+    background-color: red;
+    cursor: pointer;
+}
 
 .box-grønn{
     background-color: green;
 }
+.box-grønn{
+    background-color: green;
+    cursor: pointer;
+}
 
 .box-gul{
     background-color: yellow;
+}
+.box-gul{
+    background-color: yellow;
+    cursor: pointer;
 }
 
 .start{
@@ -35,4 +53,13 @@
     width: 30%;
     margin: auto;
     font-size: 60px;
+    cursor: pointer;
+}
+
+.game_over{
+    display: inline-block;
+    margin: auto;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 0.5%;
 }
